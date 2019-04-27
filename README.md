@@ -2,9 +2,9 @@
 Projet d'une application pour la gestion de tâches
 
 # Membres
-Adrien Cianci 
-Clément Grillot
-Jacques Monnier
+- Adrien Cianci 
+- Clément Grillot
+- Jacques Monnier
 
 # Avancement du projet
 Création des combosBox en cours ...
