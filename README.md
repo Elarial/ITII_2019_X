@@ -14,7 +14,7 @@ Création des combosBox en cours ...
 2. Si l’on ferme la fenêtre du programme, dans la vue Console de Eclipse, on constate que le programme est considéré comme étant toujours en cours de fonctionnement.
 3. Après avoir ajouté la ligne 
 ```java
- setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE_);
+ setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
  ```
 on constate que si on ferme la fenetre du programme, dans la vue Console d’Eclipse le programme est bien considéré comme fermé.
 
