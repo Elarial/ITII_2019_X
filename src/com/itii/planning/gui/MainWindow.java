@@ -4,22 +4,24 @@ import javax.swing.JFrame;
 
 public class MainWindow extends JFrame {
 	private static MainWindow instance;
-	
+
 	public static MainWindow getInstance() {
-		if(instance==null) {
+		if (instance == null) {
 			instance = new MainWindow();
 		}
 		return instance;
 	}
-	public void initialize()
-	{
+
+	public void initialize() {
 		setSize(780, 600);
 		setVisible(true);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
+
 		this.validate();
 		this.repaint();
+		this.setJMenuBar(MenuBar.getInstance());
 	}
+
 	private MainWindow() {
 		initialize();
 	}
