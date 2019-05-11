@@ -30,8 +30,9 @@ public class MainWindow extends JFrame
   {
 
       this.setSize(600,480);
-
-
+      setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      
+      this.setJMenuBar(MenuBar.getInstance());
       this.setVisible(true);
   }
 }
