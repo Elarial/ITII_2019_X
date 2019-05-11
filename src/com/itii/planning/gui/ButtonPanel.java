@@ -1,4 +1,4 @@
 package com.itii.planning.gui;
 
-public class WeeklyPannel {
+public class ButtonPanel {
 }
