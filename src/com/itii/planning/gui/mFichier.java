@@ -1,9 +1,12 @@
 package com.itii.planning.gui;
 
 import javax.swing.JMenu;
+import javax.swing.JMenuItem;
+
 
 public class mFichier extends JMenu {
 
+	private static final long serialVersionUID = 1L;
 	private static mFichier instance;
 
 	public static mFichier getInstance() {
@@ -15,6 +18,7 @@ public class mFichier extends JMenu {
 
 	public void initialize() {
 		this.setText("Fichier");
+		this.add(new JMenuItem("Quitter"));
 	}
 
 	private mFichier() {
