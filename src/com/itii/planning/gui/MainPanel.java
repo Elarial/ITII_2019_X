@@ -34,6 +34,7 @@ public class MainPanel extends JPanel
     
     mainPanel.setBackground(Color.blue);
     panelChoixCalendrier.setBackground(Color.red);
+    panelChoixCalendrier.add(ComboCalendrier.getInstance());
     
     setLayout(new BorderLayout());
     add(panelChoixCalendrier, BorderLayout.NORTH);
