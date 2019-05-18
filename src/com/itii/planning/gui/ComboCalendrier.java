@@ -23,7 +23,7 @@ public class ComboCalendrier extends JComboBox<String>
     }
       return INSTANCE;
   }
-  public void initialize()
+  private void initialize()
   {
     this.addItem("Liste");
     this.addItem("Semaine");

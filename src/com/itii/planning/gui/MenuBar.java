@@ -23,7 +23,7 @@ public class MenuBar extends JMenuBar
     initialize();
   }
 
-  public void initialize()
+  private void initialize()
   {
    JMenu menuFichier =  new JMenu("Fichier");
    JMenu menuEdition =  new JMenu("Edition");

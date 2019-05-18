@@ -26,7 +26,7 @@ public class MainWindow extends JFrame
     initialize();
   }
 
-  public void initialize()
+  private void initialize()
   {
 
       this.setSize(600,480);

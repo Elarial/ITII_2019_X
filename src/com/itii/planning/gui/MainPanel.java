@@ -29,7 +29,7 @@ public class MainPanel extends JPanel
     return INSTANCE;
   }
   
-  public void initialize()
+  private void initialize()
   {
     JPanel mainPanel            = new JPanel();
     JPanel panelChoixCalendrier = new JPanel();
