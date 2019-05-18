@@ -3,6 +3,10 @@
  */
 package com.itii.planning.gui;
 
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.LayoutManager;
+
 import javax.swing.JButton;
 import javax.swing.JPanel;
 
@@ -25,27 +29,42 @@ public class ListeButtonTasks extends JPanel
     return INSTANCE;
   }
   
-  public void initialize(){
-    JButton buttonCreer     = new JButton("Créer");
-    JButton buttonEditer    = new JButton("Editer");
-    JButton buttonMarquer   = new JButton("Marquer");
-    JButton buttonDupliquer = new JButton("Dupliquer");
-    JButton buttonSupprimer = new JButton("Supprimer");
+  private void initialize(){
+    
+    this.setLayout(new GridBagLayout());
     
     GridBagConstraints c = new GridBagConstraints();
     
+    c.fill = GridBagConstraints.HORIZONTAL;
+    c.anchor = GridBagConstraints.CENTER;
     
-    this.add(buttonCreer);
-    this.add(buttonEditer);
-    this.add(buttonMarquer);
-    this.add(buttonDupliquer);
-    this.add(buttonSupprimer);
+    c.gridy = 0 ;
+    JButton buttonCreer     = new JButton("Créer");
+    this.add(buttonCreer,c);
+    c.gridy = 1 ;
+    JButton buttonEditer    = new JButton("Editer");
+    
+    this.add(buttonEditer,c);
+    c.gridy = 2 ;
+    JButton buttonMarquer   = new JButton("Marquer");
+    this.add(buttonMarquer,c);
+    JButton buttonDupliquer = new JButton("Dupliquer");
+    c.gridy = 3 ;
+    this.add(buttonDupliquer,c);
+    c.gridy = 4 ;
+    JButton buttonSupprimer = new JButton("Supprimer");
+    this.add(buttonSupprimer,c);
+    
+    
+    
+    
     
     
     
   }
   
   private ListeButtonTasks() {
+    
     initialize();
   }
 }
