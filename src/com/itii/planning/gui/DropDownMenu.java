@@ -10,5 +10,6 @@ public class DropDownMenu extends JComboBox {
     {
         super();
         this.setModel(new DefaultComboBoxModel<>(comboBoxItem.values()));
+        ((JLabel)this.getRenderer()).setHorizontalAlignment(JLabel.CENTER);
     }
 }

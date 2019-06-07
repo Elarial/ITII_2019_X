@@ -7,5 +7,7 @@ public class NorthPanel extends JPanel {
     NorthPanel(){
         super();
         this.setLayout(new FlowLayout());
+
+
     }
 }
