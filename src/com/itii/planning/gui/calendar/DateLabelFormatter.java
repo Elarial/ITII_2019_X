@@ -5,6 +5,10 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
+/**
+ * Class permettant de redéfinir un formatteur abstrait pour formatter les dates du JDatePicker
+ * @author Adrien
+ */
 public class DateLabelFormatter extends JFormattedTextField.AbstractFormatter {
 
     private String datePattern = "dd-MM-yyyy";

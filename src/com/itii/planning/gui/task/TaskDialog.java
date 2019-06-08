@@ -4,10 +4,14 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
 
-import com.itii.planning.gui.ListPanel;
+import com.itii.planning.gui.TablePanel;
 import com.itii.planning.gui.calendar.CalendarPanel;
 
 
+/**
+ * Class représentant la boite de dialogue permetant d'ajouter une tache
+ * @author Adrien
+ */
 public class TaskDialog extends JDialog {
 
     private JLabel taskNameLabel = new JLabel("Nom de la tâche : ");
@@ -21,6 +25,10 @@ public class TaskDialog extends JDialog {
     private JButton okButton = new JButton("OK");
 
 
+    /**
+     * @param parent Frame dans laquelle sera rendu la boite de dialogue
+     * @param task Tache à afficher dans la boite de dialogue
+     */
     public TaskDialog(JFrame parent,Task task){
         super(parent, true);
         if (parent != null) {
@@ -113,14 +121,14 @@ public class TaskDialog extends JDialog {
         });
 
         okButton.addActionListener(e -> {
-            Task newTask = new Task(taskNameInput.getText(),dateInput.getText(),detailsInput.getText());
+            Task newTask = new Task(taskNameInput.getText(),dateInput.getText(),detailsInput.getText(),"unmarked");
             switch (this.getName()){
 
                 case "newTask":
-                    ListPanel.addTask(newTask);
+                    TablePanel.addTask(newTask);
                 break;
                 case "editTask":
-                    ListPanel.editFocusedTask(newTask);
+                    TablePanel.editFocusedTask(newTask);
 
                 break;
 
@@ -143,6 +151,11 @@ public class TaskDialog extends JDialog {
             dispose();
         });
     }
+
+    /**
+     * Méthode permettant de régler les champs de la boite de dialogue en fonction d'une tache
+     * @param task Contenu de la tache qui sera copié dans la boite de dialogue.
+     */
     public void setTaskContent(Task task){
         taskNameInput.setText(task.getName());
         dateInput.setText(task.getDate());

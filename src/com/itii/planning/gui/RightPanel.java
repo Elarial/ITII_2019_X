@@ -5,9 +5,12 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import com.itii.planning.gui.task.Task;
 import com.itii.planning.gui.task.TaskDialog;
 
+/**
+ * Class représentant le panneau de droite contenant les boutons d'interaction.
+ * @author Adrien
+ */
 public class RightPanel extends JPanel implements ActionListener {
     RightPanel(){
         super();
@@ -50,43 +53,53 @@ public class RightPanel extends JPanel implements ActionListener {
         duplicateButton.addActionListener(this);
         deleteButton.addActionListener(this);
     }
+
+    /**
+     * Méthode gérant les évennements lors des actions sur les boutons.
+     * @param e Ecouteur de l'évennement
+     */
     public void actionPerformed(ActionEvent e) {
             JButton source = (JButton)e.getSource();
-            if (source.getName()=="deleteButton"){
-                ListPanel.deleteFocusedTask();
-            }else{
 
-            TaskDialog taskDialog= new TaskDialog((JFrame)getTopLevelAncestor(),null);
 
             switch (source.getName()){
                 case "createButton" :
-                    taskDialog.setTitle("Nouvelle tâche");
-                    taskDialog.setName("newTask");
+                    execCreateButton();
                     break;
                 case "editButton":
-                    taskDialog.setTitle("Editer une tâche");
-                    taskDialog.setName("editTask");
-                    taskDialog.setTaskContent(ListPanel.getFocusedTask());
+                    execEditButton();
                     break;
                 case "markButton":
-                    taskDialog.setTitle("Marquer une tâche");
-                    taskDialog.setName("markTask");
                     break;
                 case "duplicateButton":
-                    taskDialog.setTitle("Dupliquer une tâche");
-                    taskDialog.setName("duplicateTask");
-                    ListPanel.duplicateFocusedTask();
+                    execDuplicateButton();
                     break;
                 case "deleteButton":
-                    taskDialog.setTitle("Supprimer une tâche");
-                    taskDialog.setName("deleteTask");
-
+                    execDeleteButton();
                     break;
                 default :
                     throw new IllegalArgumentException("Invalid Text: "+source.getName());
             }
-            taskDialog.pack();
-            taskDialog.setVisible(true);
-            }
+    }
+    public void execCreateButton(){
+        TaskDialog taskDialog= new TaskDialog((JFrame)getTopLevelAncestor(),null);
+        taskDialog.setTitle("Nouvelle tâche");
+        taskDialog.setName("newTask");
+        taskDialog.pack();
+        taskDialog.setVisible(true);
+    }
+    public void execEditButton(){
+        TaskDialog taskDialog= new TaskDialog((JFrame)getTopLevelAncestor(), TablePanel.getFocusedTask());
+        taskDialog.setTitle("Editer une tâche");
+        taskDialog.setName("editTask");
+        taskDialog.setTaskContent(TablePanel.getFocusedTask());
+        taskDialog.pack();
+        taskDialog.setVisible(true);
+    }
+    public void execDuplicateButton(){
+        TablePanel.duplicateFocusedTask();
+    }
+    public void execDeleteButton(){
+        TablePanel.deleteFocusedTask();
     }
 }

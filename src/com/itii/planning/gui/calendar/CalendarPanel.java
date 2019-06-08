@@ -1,6 +1,5 @@
 package com.itii.planning.gui.calendar;
 
-import org.jdatepicker.*;
 import org.jdatepicker.impl.JDatePanelImpl;
 import org.jdatepicker.impl.JDatePickerImpl;
 import org.jdatepicker.impl.UtilDateModel;
@@ -13,6 +12,11 @@ public class CalendarPanel {
     private JDatePickerImpl _datePicker;
     private JDatePanelImpl _datePanel;
     private UtilDateModel _model;
+
+    /**
+     * Class définissant le rendu du calendrier affiché dans la fenètre d'ajout de tache.
+     * @author Adrien
+     */
     public CalendarPanel(){
         _model = new UtilDateModel();
         Properties props = new Properties();
@@ -34,9 +38,13 @@ public class CalendarPanel {
         return _model;
     }
 
+    /**
+     * Méthode permettant de formatter la date selon le pattern voulu
+     * @return Une chaine de caractère représentant la date au format voulu
+     */
     public String getFormatedDate(){
         Date selectedDate = _model.getValue();
-        SimpleDateFormat sdfmt = new SimpleDateFormat("dd/MM/yyyy");
+        SimpleDateFormat sdfmt = new SimpleDateFormat("dd/MM/yyyy HH:mm");
         return sdfmt.format(selectedDate);
     }
 

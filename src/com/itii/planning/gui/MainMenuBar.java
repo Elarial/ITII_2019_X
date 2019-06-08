@@ -1,10 +1,12 @@
 package com.itii.planning.gui;
 
 import javax.swing.*;
-//package private access
+
+/**
+ * Class représentant la barre de menus.
+ * @author Adrien
+ */
  class MainMenuBar extends JMenuBar {
-
-
 
      MainMenuBar()
     {
@@ -12,6 +14,10 @@ import javax.swing.*;
        createMenus();
 
     }
+
+    /**
+     * Méthode executant la création des menus.
+     */
     private void createMenus()
     {
         JMenu fileMenu = new JMenu("Fichier");
@@ -22,7 +28,11 @@ import javax.swing.*;
         this.add(editMenu);
         this.add(viewMenu);
         this.add(helpMenu);
-        fileMenu.add(new JMenuItem("Quitter"));
+
+        JMenuItem exitMenuItem = new JMenuItem("Quitter");
+        fileMenu.add(exitMenuItem);
+        exitMenuItem.addActionListener(e -> System.exit(0));
+
         editMenu.add(new JMenuItem("Créer"));
         editMenu.add( new JMenuItem("Editer"));
         editMenu.add( new JMenuItem("Marquer"));

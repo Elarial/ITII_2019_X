@@ -1,36 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93b798ff-cfbc-4d8e-87a5-dc376a8495b4" name="Default Changelist" comment="Ajout du modèle de taches.&#10;Ajout des fonctionnalités des boutons &#10;Ajout, suppression, dupliquer, éditer.&#10;Ajout de la vue liste.">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jdatepicker_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jdatepicker_2_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jdatepicker-1.3.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/Model/ListTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/calendar/CalendarPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/calendar/DateLabelFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/task/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/task/TaskDialog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="93b798ff-cfbc-4d8e-87a5-dc376a8495b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sqlite_jdbc_3_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/sqlite-jdbc-3.21.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/itii/planning/dataBase/TaskPersistence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/itii/planning/dataBase/dbTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ITII_2019_X.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ITII_2019_X.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itii/planning/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/ButtonPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/ButtonPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/ButtonPanel.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/CenterPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/CenterPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/DropDownMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/DropDownMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/ListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/ListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/ListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/TablePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/MainMenuBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/MainMenuBar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/Model/ListTable.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/MonthlyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/MonthlyPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/NorthPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/NorthPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/PanelContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/PanelContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/RightPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/RightPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/WeeklyPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/WeeklyPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/calendar/CalendarPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/calendar/CalendarPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/calendar/DateLabelFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/calendar/DateLabelFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/task/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/task/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/itii/planning/gui/task/TaskDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/itii/planning/gui/task/TaskDialog.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,43 +38,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/CenterPanel.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/MainMenuBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/ListPanel.java">
+        <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/RightPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
+            <state relative-caret-position="-92">
+              <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2067#2068#0" expanded="true" />
-                <element signature="e#2095#2096#0" expanded="true" />
-                <element signature="e#2278#2279#0" expanded="true" />
-                <element signature="e#2338#2339#0" expanded="true" />
-                <element signature="e#2952#2953#0" expanded="true" />
-                <element signature="e#2993#2994#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/task/TaskDialog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="111" column="58" lean-forward="true" selection-start-line="111" selection-start-column="58" selection-end-line="111" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#3421#3422#0" expanded="true" />
+                <element signature="e#3473#3474#0" expanded="true" />
+                <element signature="e#3463#3464#0" expanded="true" />
+                <element signature="e#3509#3510#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,20 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="72" column="47" lean-forward="true" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/RightPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="77" column="53" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
+            <state relative-caret-position="117">
+              <caret line="42" column="18" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,14 +76,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/task/Task.java">
+        <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/MonthlyPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="102">
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
               <folding>
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/DropDownMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -144,14 +117,23 @@
       <find>this.add(pan</find>
       <find>pack</find>
       <find>conta</find>
-      <find>drop</find>
       <find>scroll</find>
       <find>center</find>
       <find>tablemodel</find>
       <find>contai</find>
       <find>listpan</find>
       <find>tasknameinput</find>
+      <find>lecture</find>
       <find>set</find>
+      <find>from</find>
+      <find>model</find>
+      <find>addtask</find>
+      <find>duplicateFocusedTask</find>
+      <find>insertion</find>
+      <find>addtas</find>
+      <find>north</find>
+      <find>drop</find>
+      <find>righ</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -213,26 +195,34 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/itii/Planning/Launcher.java" />
         <option value="$PROJECT_DIR$/src/com/itii/Planning/gui/MainWindow.java" />
-        <option value="$PROJECT_DIR$/src/com/itii/planning/Launcher.java" />
         <option value="$PROJECT_DIR$/src/com/itii/planning/gui/toto.form" />
         <option value="$PROJECT_DIR$/src/com/itii/planning/gui/MenuBar.java" />
         <option value="$PROJECT_DIR$/src/com/itii/planning/gui/ListPannel.java" />
         <option value="$PROJECT_DIR$/src/com/itii/planning/gui/MonthlyPannel.java" />
-        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/MainMenuBar.java" />
         <option value="$PROJECT_DIR$/src/com/itii/planning/gui/task.java" />
         <option value="$PROJECT_DIR$/src/com/itii/planning/gui/TaskDialog.java" />
-        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/task/Task.java" />
         <option value="$PROJECT_DIR$/src/com/itii/planning/gui/calendar/Calendar.java" />
-        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/calendar/DateLabelFormatter.java" />
-        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/calendar/CalendarPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/PanelContainer.java" />
-        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/NorthPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/DropDownMenu.java" />
         <option value="$PROJECT_DIR$/src/com/itii/planning/gui/Model/ListTable.java" />
-        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/MainWindow.java" />
-        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/task/TaskDialog.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/dataBase/dbLaucher.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/dataBase/taskPersistence.java" />
         <option value="$PROJECT_DIR$/src/com/itii/planning/gui/ListPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/dataBase/dbTest.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/dataBase/TaskPersistence.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/calendar/CalendarPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/calendar/DateLabelFormatter.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/task/Task.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/task/TaskDialog.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/CenterPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/DropDownMenu.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/TablePanel.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/MonthlyPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/NorthPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/PanelContainer.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/WeeklyPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/Launcher.java" />
         <option value="$PROJECT_DIR$/src/com/itii/planning/gui/RightPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/itii/planning/gui/MainMenuBar.java" />
       </list>
     </option>
   </component>
@@ -258,6 +248,11 @@
             <path>
               <item name="ITII_2019_X" type="b2602c69:ProjectViewProjectNode" />
               <item name="ITII_2019_X" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITII_2019_X" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITII_2019_X" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -265,6 +260,13 @@
               <item name="ITII_2019_X" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="planning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ITII_2019_X" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ITII_2019_X" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="planning" type="462c0819:PsiDirectoryNode" />
+              <item name="dataBase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ITII_2019_X" type="b2602c69:ProjectViewProjectNode" />
@@ -287,14 +289,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="planning" type="462c0819:PsiDirectoryNode" />
               <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ITII_2019_X" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ITII_2019_X" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="planning" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
               <item name="task" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -308,6 +302,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RunDashboard">
@@ -322,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.itii.planning.Launcher" />
       <module name="ITII_2019_X" />
@@ -332,9 +329,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dbTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.itii.planning.dataBase.dbTest" />
+      <module name="ITII_2019_X" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itii.planning.dataBase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.dbTest" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556369841363</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajout du modèle de taches.&#10;Ajout des fonctionnalités des boutons &#10;Ajout, suppression, dupliquer, éditer.&#10;Ajout de la vue liste.">
+      <created>1559945123249</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559945123249</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -370,6 +388,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976852" visible="true" weight="0.20566802" />
       <window_info id="Structure" order="1" sideWeight="0.5023148" side_tool="true" weight="0.20566802" />
@@ -380,7 +399,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49554655" weight="0.23268206" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4923077" visible="true" weight="0.23268206" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,16 +407,16 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49878544" weight="0.3285968" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49959514" weight="0.3285968" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50364375" side_tool="true" visible="true" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49635628" visible="true" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50769234" side_tool="true" visible="true" weight="0.23268206" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49473685" weight="0.3285968" />
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Theme Preview" order="1" />
-      <window_info anchor="right" id="Maven" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" visible="true" weight="0.05748988" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.05748988" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -449,50 +468,88 @@
     <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/ListPannel.java" />
     <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/WeeklyPannel.java" />
     <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/MonthlyPannel.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/calendar/DateLabelFormatter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/dataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/dataBase/dbLaucher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#166#174#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/WeeklyPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/Model/ListTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="163">
+          <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/calendar/CalendarPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="612">
+          <caret line="42" column="75" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="e#957#958#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/Launcher.java">
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/dataBase/dbTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="183">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/MainMenuBar.java">
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/dataBase/TaskPersistence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="302">
+          <caret line="180" column="59" selection-start-line="180" selection-start-column="59" selection-end-line="180" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/calendar/DateLabelFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="95" selection-start-line="8" selection-start-column="95" selection-end-line="8" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/task/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="76" column="31" selection-start-line="76" selection-start-column="31" selection-end-line="76" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/task/TaskDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="156" column="80" selection-start-line="156" selection-start-column="80" selection-end-line="156" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -503,27 +560,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/NorthPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/CenterPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/DropDownMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="73" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/PanelContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        <state relative-caret-position="102">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -532,90 +572,171 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/MonthlyPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="102">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/CenterPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/NorthPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/Model/ListTable.java">
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/PanelContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/WeeklyPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/TablePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="127" column="61" selection-start-line="127" selection-start-column="61" selection-end-line="127" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/DropDownMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="72" column="47" lean-forward="true" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
+        <state relative-caret-position="117">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/task/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/task/TaskDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="111" column="58" lean-forward="true" selection-start-line="111" selection-start-column="58" selection-end-line="111" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/ListPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="87" column="44" selection-start-line="87" selection-start-column="44" selection-end-line="87" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2067#2068#0" expanded="true" />
-            <element signature="e#2095#2096#0" expanded="true" />
-            <element signature="e#2278#2279#0" expanded="true" />
-            <element signature="e#2338#2339#0" expanded="true" />
-            <element signature="e#2952#2953#0" expanded="true" />
-            <element signature="e#2993#2994#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/RightPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="77" column="53" selection-start-line="77" selection-start-column="53" selection-end-line="77" selection-end-column="53" />
+        <state relative-caret-position="-92">
+          <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3421#3422#0" expanded="true" />
+            <element signature="e#3473#3474#0" expanded="true" />
+            <element signature="e#3463#3464#0" expanded="true" />
+            <element signature="e#3509#3510#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/itii/planning/gui/MainMenuBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ITII_2019_X:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
